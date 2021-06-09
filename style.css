@@ -376,6 +376,7 @@ a:focus{
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+    }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -406,13 +407,13 @@ a:focus{
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
-    }
-}
+    }git init
 
 .nav > li > .dropdown a {
     background: none!important;
     display: block;
     padding: 14px 15px;
+    min-height: 44pt;
 }
 
 nav .caret {
@@ -710,6 +711,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+
 }
 
 h2 {
@@ -1049,6 +1051,9 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .col-sm-4 li{
+        min-height: 44pt;
     }
 }
 
