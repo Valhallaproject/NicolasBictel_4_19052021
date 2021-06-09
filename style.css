@@ -17,6 +17,9 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+a:focus{
+    font-weight: bold;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -150,6 +153,9 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+.d-bloc a:focus .icon-md{
     color: rgba(255, 255, 255, 1);
 }
 
@@ -745,6 +751,7 @@ h4 {
     margin-bottom: 24px;
 }
 
+
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
@@ -792,6 +799,10 @@ h4 {
     background: #c27956!important;
     color: #000000!important;
 }
+.btn-atomic-tangerine:focus{
+    background: #c27956!important;
+    color: #000000!important;
+}
 
 .ltc-white {
     color: #FFFFFF!important;
@@ -800,12 +811,17 @@ h4 {
 .ltc-white:hover {
     color: #cccccc!important;
 }
-
+.ltc-white:focus{
+    color: #cccccc!important;
+}
 .ltc-atomic-tangerine {
     color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
+    color: #c27956!important;
+}
+.ltc-atomic-tangerine:focus{
     color: #c27956!important;
 }
 
@@ -937,6 +953,9 @@ h4 {
         width: 100%;
     }
     .nav > li:hover {
+        background: rgba(0, 0, 0, .08);
+    }
+    .nav > li:focus{
         background: rgba(0, 0, 0, .08);
     }
     .dropdown .dropdown a .caret {
